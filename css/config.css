@@ -1,0 +1,131 @@
+/* Animating Starting Name*/
+
+@keyframes start {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.containerTop {
+    margin-top: 80px;
+}
+
+.cardBox {
+    background: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px !important;
+    border: 2px solid #3498db;
+    box-shadow: 0px 20px 34px 20px rgba(0, 0, 0, 0.2);
+}
+
+#myBtn {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 25px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 0.5px solid #ecedef;
+    outline: none;
+    background-color: #2f2f2f;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .15), 0 5px 10px 0 rgba(0, 0, 0, .11);
+}
+
+#myBtn:hover {
+    background-color: #ecedef;
+    color: #1b3647;
+    border: 1px solid #1b3647
+}
+
+#myBtnHome {
+    position: fixed;
+    top: 13px;
+    left: 30px;
+    z-index: 99;
+    border: 0px;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 0px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #333 !important;
+    font-weight: 400;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 18px !important;
+    letter-spacing: 2px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.contactChange {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+span.info-text {
+    border: 1px solid black;
+    background-color: #ecedef;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 10px 15px;
+    vertical-align: top;
+    width: calc(100% - 80px);
+    border-radius: 3px;
+    min-height: 42px;
+    color: #1b3647;
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+span.info-icon {
+    border: 1px solid black;
+    font-size: 20px;
+    color: #ecedef;
+    background-color: #1b3647;
+    display: inline-block;
+    margin-right: 13px;
+    padding-top: 10px;
+    padding-right: 2px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.span3.contactLinks {
+    height: 150px;
+    margin: 5px;
+    border: 1px solid rgba(242, 243, 245, 0.55);
+    background-color: #ecedef;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 10px 15px;
+    vertical-align: top;
+    width: calc(100% - 30px);
+    border-radius: 3px;
+    min-height: 42px;
+    color: #1b3647;
+    cursor: pointer;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 0px 20px 30px -3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.row-fluid {
+	columns: 2 8em;
+}
