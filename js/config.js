@@ -29,7 +29,8 @@ setTimeout(function () {
 
 		var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime()) / (oneDay)));
 
-		var expY = (diffDays / 365).toFixed(1);
+		// var expY = (diffDays / 365).toFixed(1);
+		var expY = 2
 		function calculate_age(dob) {
 			var diff_ms = Date.now() - dob.getTime();
 			var age_dt = new Date(diff_ms);
@@ -38,7 +39,7 @@ setTimeout(function () {
 		}
 
 		$(".animated-intro").typed({
-			strings: ["I'm <b>" + calculate_age(new Date(1998, 5, 2)) + "</b>. I live in <b>Hyderabad</b>. <br> I have been working as Full Stack Developer for <b>" + expY + " years</b>. ",
+			strings: ["I'm <b>" + calculate_age(new Date(1998, 5, 2)) + "</b>. I live in <b>Los Angeles, California</b>. <br> I worked as Full Stack Developer for <b>" + expY + " years</b>. ",
 				"Experienced with all stages of the development cycle for dynamic web projects", "DataScience Enthusiast</b>.",
 			], 			//just wrote what text you want to appear
 			typeSpeed: 0,

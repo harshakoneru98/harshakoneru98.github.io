@@ -140,7 +140,7 @@ footer {
     top: 0;
     bottom: 23px;
     left: 50%;
-    height: 99.5%;
+    height: 96%;
     width: 4px;
     opacity: 0.3;
     background: #616161;
@@ -148,18 +148,6 @@ footer {
 
 #timeline-education {
     position: relative;
-}
-
-#timeline-education:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 23px;
-    left: 50%;
-    height: 99.5%;
-    width: 4px;
-    opacity: 0.3;
-    background: #616161;
 }
 
 #timeline-experience {
@@ -210,6 +198,7 @@ footer {
 
 .timeline-block:last-child {
     margin-bottom: 0;
+    top: 3em;
 }
 
 .timeline-block .card-content {
@@ -310,7 +299,7 @@ footer {
     #timeline-education::before {
         left: 50%;
         margin-left: -2px;
-        height: 64%;
+        height: 79%;
         opacity: 0.4;
         background: #325974;
     }
@@ -318,14 +307,14 @@ footer {
     #timeline-experience::before {
         left: 50%;
         margin-left: -2px;
-        height: 85%;
+        height: 95%;
         opacity: 0.4;
         background: #325974;
     }
     #timeline-projects::before {
         left: 50%;
         margin-left: -2px;
-        height: 82%;
+        height: 88%;
         opacity: 0.4;
         background: #325974;
     }
